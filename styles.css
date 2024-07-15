@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.outer-box-1 {
+    padding: 10px;
+    border: 5px solid #d90075;
+    background-color: #fff;
+}
+
+.outer-box-2 {
+    padding: 10px;
+    border: 5px solid #d90075;
+    background-color: #bf00d7;
+}
+
+.box {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: none;
+    padding: 5px;
+    background-image: url(orquidea.jpg);
+    box-shadow: inset 5px 6px 10px 5px red;
+    background-size: cover;
+    
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 3em;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 4px 4px #bf00d7;
+}
